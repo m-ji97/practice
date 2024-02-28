@@ -28,7 +28,7 @@ public class PhonebookController {
 	public String writeForm(@ModelAttribute PersonVo personvo) {
 		System.out.println("PhonebookController.writeForm()");
 		
-		return "/WEB-INF/views/writeForm";
+		return "writeForm";
 	}
 	
 	//등록
